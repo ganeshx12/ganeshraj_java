@@ -1,11 +1,14 @@
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int length = 190;
-        double width = 5.2;
+        Scanner sc = new Scanner(System.in);
 
-        double area = length * width;
+        double length = sc.nextDouble();
+        double width = sc.nextDouble();
 
-        System.out.println("Area = " + area);
+        System.out.println("Area = " + (length * width));
+
+        sc.close();
     }
 }
