@@ -1,10 +1,16 @@
+
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        int a = 56700;
-        int b = 7890;
+        Scanner sc = new Scanner(System.in);
 
-        int sum = a + b;
+        double a = sc.nextDouble();
+        double b = sc.nextDouble();
 
-        System.out.println("Sum = " + sum);
+        System.out.println("Sum = " + (a + b));
+
+        sc.close();
     }
 }
+
